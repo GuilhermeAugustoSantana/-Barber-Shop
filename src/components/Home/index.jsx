@@ -11,7 +11,7 @@ export const Home = () => {
     setTema(!tema);
   }
   return (
-    <div className={`${tema ? "light" : "dark"}`}>
+    <div className={`body ${tema ? "light" : "dark"}`}>
       <header className='menu limitar-largura'>
         <img className='logo' src="assets/barbearia-logo.png" alt="logo" />
         <button onClick={mudarTema} className={`${tema ? "light" : "dark"}`}>
