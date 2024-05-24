@@ -1,0 +1,95 @@
+.limitar-largura {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+
+/* MENU */
+
+.menu {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 100%;
+}
+
+button {
+  margin-right: 20px;
+  height: 50px;
+  padding: 10px 20px;
+  border-radius: 50px;
+  border: 2px solid var(--bege);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+}
+
+.light {
+  color: var(--black);
+  background-color: var(--white);
+}
+
+.dark {
+  color: var(--white);
+  background-color: var(--dark-black);
+}
+
+button img {
+  height: 30px;
+}
+
+button p {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* FIM MENU */
+
+/* BANNER */
+
+.banner {
+  width: 100%;
+  height: 400px;
+  background-image: url('/public/assets/banner-barbearia.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* FIM BANNER */
+
+/* INFORMATION */
+
+.information {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.information h1 {
+  font-size: 30px;
+  margin: 20px;
+}
+
+.information p:nth-child(2) {
+  font-weight: bold;
+}
+
+.information p {
+  padding: 10px 20px;
+}
+
+.destaque {
+  margin-top: 50px;
+  color: var(--bege);
+  font-family: 'Great Vibes';
+  font-size: 50px;
+}
+
+/* FIM INFORMATION */
+

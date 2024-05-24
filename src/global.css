@@ -1,0 +1,16 @@
+:root {
+  --bege: #B2987D;
+  --black: #000;
+  --dark-black: #252323;
+  --white: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins'
+}
