@@ -13,9 +13,9 @@ export const Home = () => {
   return (
     <div className={`body ${tema ? "light" : "dark"}`}>
       <header className='menu limitar-largura'>
-        <img className='logo' src="assets/barbearia-logo.png" alt="logo" />
+        <img className={tema ? "logo-light" : "logo-dark"} src="assets/barbearia-logo.png" alt="logo" />
         <button onClick={mudarTema} className={`${tema ? "light" : "dark"}`}>
-          <img src={tema ? moon : sun} alt="" />
+          <img src={tema ? moon : sun} alt="icon lua/sol" />
           <p>{tema ? "Dark" : "Light"}</p>
         </button>
       </header>

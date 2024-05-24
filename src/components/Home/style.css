@@ -16,8 +16,13 @@
   justify-content: space-between;
 }
 
-.logo {
+.logo-light {
   height: 100%;
+}
+
+.logo-dark {
+  height: 100%;
+  filter: invert();
 }
 
 button {
@@ -74,7 +79,7 @@ button p {
 }
 
 .information h1 {
-  font-size: 30px;
+  font-size: 36px;
   margin: 20px;
 }
 
@@ -94,4 +99,3 @@ button p {
 }
 
 /* FIM INFORMATION */
-
