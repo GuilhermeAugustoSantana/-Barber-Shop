@@ -99,3 +99,9 @@ button p {
 }
 
 /* FIM INFORMATION */
+
+@media screen and (max-width: 1440px) {
+  .body {
+    height: auto;
+  }
+}
